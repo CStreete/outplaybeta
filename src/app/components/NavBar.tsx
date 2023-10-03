@@ -14,7 +14,7 @@ const NavBar = () => {
             </span>
           </Link>
           <Link
-            href={"/"}
+            href={"/subscribe"}
             className={buttonVariants({
               variant: "ghost",
               size: "sm",

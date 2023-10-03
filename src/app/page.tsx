@@ -26,7 +26,7 @@ export default function Home() {
 
             className: "mt-5 bg-purple-500 text-white",
           })}
-          href={"/prelaunch"}
+          href={"/subscribe"}
         >
           Get Notified
           <ArrowRight className="ml-2 h-5 w-5" />
