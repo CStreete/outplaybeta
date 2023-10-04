@@ -2,6 +2,7 @@ import Link from "next/link"
 import MaxWidthWrapper from "./MaxWidthWrapper"
 import { buttonVariants } from "@/components/ui/button"
 import { Ghost } from "lucide-react"
+import MobileNav from "./MobileNav"
 
 const NavBar = () => {
   return (
@@ -13,23 +14,26 @@ const NavBar = () => {
               <span className=" text-purple-400">o</span>utplay.
             </span>
           </Link>
+          <MobileNav />
+
           <Link
             href={"/subscribe"}
             className={buttonVariants({
               variant: "ghost",
               size: "sm",
               className:
-                " text-white hover:bg-gray-400/25 hover:text-white bg-",
+                " hidden text-white hover:bg-gray-400/25 hover:text-white sm:flex",
             })}
           >
             Get Notified
           </Link>
           <Link
-            href={"/"}
+            href={""}
             className={buttonVariants({
               variant: "ghost",
               size: "sm",
-              className: " text-white hover:bg-gray-400/25 hover:text-white",
+              className:
+                " text-white hover:bg-gray-400/25 hover:text-white hidden sm:flex",
             })}
           >
             The team

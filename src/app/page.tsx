@@ -1,4 +1,4 @@
-import MaxWidthWrapper from "./components/MaxWidthWrapper"
+import MaxWidthWrapper from "../components/MaxWidthWrapper"
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight } from "lucide-react"
@@ -17,7 +17,7 @@ export default function Home() {
           <span className=" text-purple-500">O</span>utPlay
         </h1>
         <p className=" mt-5 max-w-prose text-white sm:text-lg">
-          A new generation of gaming, for the gamers
+          A new generation platform, for the gamers
         </p>
         <Link
           className={buttonVariants({
@@ -82,8 +82,8 @@ export default function Home() {
               <span className="mt-2 text-white">
                 Introducing our cutting-edge app that empowers you to share your
                 favorite clips like never before! Whether it&apos;s a hilarious
-                moment, an epic win, or a heartwarming scene, Post and Share
-                Your Favorite Clips to showcase the best moments.
+                moment, an epic win, or a heartwarming scene, post and share
+                your favorite clips to showcase the best moments.
               </span>
             </div>
           </li>
@@ -94,7 +94,7 @@ export default function Home() {
               </span>
               <span className="mt-2 text-white">
                 Welcome to the ultimate community-building app where you&apos;re
-                in control! With &apos;Build a Community,&apos; creating,
+                in control! With &apos;build a community,&apos; creating,
                 nurturing, and connecting with your tribe has never been easier.
               </span>
             </div>

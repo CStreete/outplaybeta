@@ -1,6 +1,6 @@
 "use client"
 import { NextPage } from "next"
-import MaxWidthWrapper from "../components/MaxWidthWrapper"
+import MaxWidthWrapper from "../../components/MaxWidthWrapper"
 import { Input } from "@/components/ui/input"
 import axios from "axios"
 import { Button, buttonVariants } from "@/components/ui/button"
@@ -42,8 +42,8 @@ const Page: NextPage<Props> = ({}) => {
         {action == "sent" ? (
           <div>
             <h1 className=" text-2xl text-white">
-              Thank You for your intrest in outplay, we will email u as soon as
-              possible with future updates!
+              Thank You for your intrest in outplay, we will email you as soon
+              as possible with future updates!
             </h1>
             <Link
               className={buttonVariants({
@@ -78,7 +78,7 @@ const Page: NextPage<Props> = ({}) => {
                 variant={"ghost"}
                 size={"lg"}
                 type="submit"
-                className="bg-purple-500 text-whit absolute right-0 rounded-full text-white py-7"
+                className="bg-purple-500  absolute right-0 rounded-full text-white py-7"
               >
                 Subscribe
               </Button>
