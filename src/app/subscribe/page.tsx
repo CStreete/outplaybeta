@@ -76,7 +76,6 @@ const Page: NextPage<Props> = ({}) => {
               ></Input>
               <Button
                 variant={"ghost"}
-                size={"lg"}
                 type="submit"
                 className="bg-purple-500  absolute right-0 rounded-full text-white py-7"
               >
