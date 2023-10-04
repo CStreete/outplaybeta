@@ -69,8 +69,8 @@ export default function Home() {
               <span className="mt-2 text-white">
                 Discover a world of possibilities with our app designed to help
                 you explore diverse content and engage with vibrant communities!
-                Whether you're a content creator, an explorer, or a social
-                butterfly, we've got you covered.
+                Whether you&apos;re a content creator, an explorer, or a social
+                butterfly, we&apos;ve got you covered.
               </span>
             </div>
           </li>
@@ -81,7 +81,7 @@ export default function Home() {
               </span>
               <span className="mt-2 text-white">
                 Introducing our cutting-edge app that empowers you to share your
-                favorite clips like never before! Whether it's a hilarious
+                favorite clips like never before! Whether it&apos;s a hilarious
                 moment, an epic win, or a heartwarming scene, Post and Share
                 Your Favorite Clips to showcase the best moments.
               </span>
@@ -93,9 +93,9 @@ export default function Home() {
                 Build a community!
               </span>
               <span className="mt-2 text-white">
-                Welcome to the ultimate community-building app where you're in
-                control! With "Build a Community," creating, nurturing, and
-                connecting with your tribe has never been easier.
+                Welcome to the ultimate community-building app where you&apos;re
+                in control! With &apos;Build a Community,&apos; creating,
+                nurturing, and connecting with your tribe has never been easier.
               </span>
             </div>
           </li>
