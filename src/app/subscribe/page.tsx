@@ -69,7 +69,7 @@ const Page: NextPage<Props> = ({}) => {
               <Input
                 type="email"
                 placeholder="Email"
-                className="rounded-full ml-6 w-full  placeholder:text-white text-white py-6"
+                className="rounded-full ml-6 w-full  placeholder:text-white text-white py-6 text-lg"
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
                 }
