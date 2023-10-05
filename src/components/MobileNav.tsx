@@ -27,12 +27,12 @@ const MobileNav = () => {
       />
       {isOpen ? (
         <div className=" fixed animate-in slide-in-from-top-5 fade-in-20 inset-0 z-0 w-full">
-          <ul className=" absolute bg-purple-800 grid w-full gap-3 px-10 pt-20 pb-8 border-b border-black shadow-xl">
+          <ul className=" absolute bg-darkpurple grid w-full gap-3 px-10 pt-20 pb-8 border-b border-black shadow-xl">
             <li>
               <Link
                 onClick={() => closeOnCurrent("/subscribe")}
                 href={"/subscribe"}
-                className=" text-white flex items-center w-full font-semibold"
+                className=" text-purple-500 flex items-center w-full font-semibold"
               >
                 Get Notified <ArrowRight className=" ml-2 h-5 w-5" />
               </Link>

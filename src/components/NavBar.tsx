@@ -6,7 +6,7 @@ import MobileNav from "./MobileNav"
 
 const NavBar = () => {
   return (
-    <nav className=" sticky h-14 inset-x-0 top-0 z-30 w-full  transition-all ">
+    <nav className=" sticky h-14 inset-x-0 top-0 z-30 w-full  transition-al bg-darkpurple">
       <MaxWidthWrapper>
         <div className=" flex h-14 items-center justify-between ">
           <Link href={"/"} className=" flex z-40 font-semibold ">
